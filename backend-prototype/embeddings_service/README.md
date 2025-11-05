@@ -24,7 +24,7 @@ Build a microservice that:
 
 ### 🔍 Search Capabilities
 - Supports similarity search queries
-- Returns most relevant text chunks based on query vectors
+- Returns most relevant text chunks based on **query vectors**
   
 
 🧠 Step 1: Install dependencies
@@ -48,5 +48,6 @@ INFO:     Uvicorn running on http://127.0.0.1:8002 (Press CTRL+C to quit)
 ```
 
 🎉 That means your FastAPI embedding service is now live!
+
 
 
