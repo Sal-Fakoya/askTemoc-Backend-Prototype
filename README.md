@@ -1,6 +1,7 @@
 # askTemoc-Embedding-Vector-Store (Person B)
 
 ## File Structure
+
 asktemoc/
 ├── ingest_stub/
 │   └── app.py
