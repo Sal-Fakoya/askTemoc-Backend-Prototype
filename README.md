@@ -24,7 +24,7 @@ backend-prototype/
 ```
 
 
-## 👥 From AskTemoc: Team Structure & Responsibilities
+## 👥 From AskTemoc: Prototype Team Structure & Responsibilities 
 
 ### Person A — Ingestion & Parsing (Ingest Team)
 - **Web scrapers / document loaders**
