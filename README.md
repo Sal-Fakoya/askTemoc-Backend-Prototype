@@ -10,7 +10,8 @@ asktemoc/
 ├── query_stub/
 │   └── app.py
 ├── docker-compose.yml
-└── requirements.txt
+├── requirements.txt
+└── README.md  
 
 High-level split (4 people)
 
