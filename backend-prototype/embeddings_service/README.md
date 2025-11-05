@@ -1,11 +1,11 @@
-### Person B — Embeddings & Vector Store (Index Team)
+### Embeddings & Vector Store (Index Team)
 - **Embedding pipeline**
 - **Local vector DB** (Chroma/FAISS for MVP)
 - **Vector index schema design**
 - **Vector search API**
 
 
-## 🎯 Goal (Person B)
+## 🎯 Goal
 
 Build a microservice that:
 
@@ -48,6 +48,7 @@ INFO:     Uvicorn running on http://127.0.0.1:8002 (Press CTRL+C to quit)
 ```
 
 🎉 That means your FastAPI embedding service is now live!
+
 
 
 
