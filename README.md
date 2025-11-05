@@ -5,7 +5,7 @@
 backend-prototype/
 ├── ingestion_service/
 │   └── app.py
-├── embed_service/
+├── embedding_service/
 │   ├── app.py
 │   ├── requirements.txt
 │   ├── db/
