@@ -13,6 +13,7 @@ asktemoc/
 ├── docker-compose.yml
 ├── requirements.txt
 └── README.md  
+```
 
 High-level split (4 people)
 
@@ -32,4 +33,4 @@ Person D — Infra, Evaluation, QA & Dashboard (Ops/Eval Team)
 
 CI, Docker/dev environments, OpenAPI/contract tests, RAG evaluation pipeline (DeepEval/RAGAS), admin dashboard endpoints/CRUD, deployment docs.
 
-```
+
