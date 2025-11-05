@@ -1,6 +1,4 @@
-# askTemoc (Person B)
-
-## File Structure
+# RAG File Structure
 
 ```
 asktemoc/
