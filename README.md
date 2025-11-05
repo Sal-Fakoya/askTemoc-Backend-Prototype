@@ -2,6 +2,7 @@
 
 ## File Structure
 
+```
 asktemoc/
 ├── ingest_stub/
 │   └── app.py
@@ -12,6 +13,7 @@ asktemoc/
 ├── docker-compose.yml
 ├── requirements.txt
 └── README.md  
+```
 
 High-level split (4 people)
 
