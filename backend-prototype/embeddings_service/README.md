@@ -35,7 +35,7 @@ pip install -r requirements.txt
 ```
 
 
-🚀 Step 4: Run your server
+🚀 Step 2: Run your server
 
 Still inside the same folder, run:
 ```
@@ -48,6 +48,7 @@ INFO:     Uvicorn running on http://127.0.0.1:8002 (Press CTRL+C to quit)
 ```
 
 🎉 That means your FastAPI embedding service is now live!
+
 
 
 
