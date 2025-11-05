@@ -37,12 +37,9 @@ CI, Docker/dev environments, OpenAPI/contract tests, RAG evaluation pipeline (De
 
 Build a microservice that:
 
-Takes in text chunks via an API.
-
-Converts them to embedding vectors using a model (e.g. all-MiniLM-L6-v2 or bge-m3).
-
-Stores those vectors in a local vector database (Chroma or FAISS).
-
-Supports similarity search when given a query vector.
+-- Takes in text chunks via an API.
+-- Converts them to embedding vectors using a model (e.g. all-MiniLM-L6-v2 or bge-m3).
+-- Stores those vectors in a local vector database (Chroma or FAISS).
+-- Supports similarity search when given a query vector.
 
 
