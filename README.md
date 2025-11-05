@@ -1,4 +1,46 @@
-# RAG File Structure
+# Person B 
+
+## File Structure
+```
+embeddings_service/
+├── app.py
+├── requirements.txt
+├── db/
+│   └── chroma/
+├── models/
+│   └── __init__.py
+└── utils/
+    └── __init__.py
+```
+
+### Person B — Embeddings & Vector Store (Index Team)
+- **Embedding pipeline**
+- **Local vector DB** (Chroma/FAISS for MVP)
+- **Vector index schema design**
+- **Vector search API**
+
+
+## 🎯 Goal (Person B)
+
+Build a microservice that:
+
+### 🔄 Input Processing
+- Takes in text chunks via an API endpoint
+
+### 🤖 Embedding Generation  
+- Converts text to embedding vectors using models like:
+  - `all-MiniLM-L6-v2` (lightweight, fast)
+  - `bge-m3` (multilingual, high performance)
+
+### 💾 Vector Storage
+- Stores embeddings in local vector databases:
+  - **Chroma** (recommended for simplicity)
+  - **FAISS** (Facebook's high-performance library)
+
+### 🔍 Search Capabilities
+- Supports similarity search queries
+- Returns most relevant text chunks based on query vectors
+  
 
 ```
 asktemoc/
@@ -13,7 +55,8 @@ asktemoc/
 └── README.md  
 ```
 
-## 👥 Team Structure & Responsibilities
+
+## 👥 From AskTemoc: Team Structure & Responsibilities
 
 ### Person A — Ingestion & Parsing (Ingest Team)
 - **Web scrapers / document loaders**
@@ -44,23 +87,3 @@ asktemoc/
 - **Deployment documentation**
   
 
-## 🎯 Goal (Person B)
-
-Build a microservice that:
-
-### 🔄 Input Processing
-- Takes in text chunks via an API endpoint
-
-### 🤖 Embedding Generation  
-- Converts text to embedding vectors using models like:
-  - `all-MiniLM-L6-v2` (lightweight, fast)
-  - `bge-m3` (multilingual, high performance)
-
-### 💾 Vector Storage
-- Stores embeddings in local vector databases:
-  - **Chroma** (recommended for simplicity)
-  - **FAISS** (Facebook's high-performance library)
-
-### 🔍 Search Capabilities
-- Supports similarity search queries
-- Returns most relevant text chunks based on query vectors
