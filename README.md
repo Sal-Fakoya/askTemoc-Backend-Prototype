@@ -1,4 +1,4 @@
-# Person B 
+# Backend Prototype
 
 ## File Structure
 ```
